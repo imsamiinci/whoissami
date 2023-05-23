@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sami Inci</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Sami İnci" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard hanrick">Sami Inci</h1>
+
+                    <p class="title">Web-Mobile Developer/Translator</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:sinci@techmail.info" class="contact-link">sinci@techmail.info</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+905384517606" class="contact-link">+90 (538) 451-7606</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">June 23, 2001</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Fatih, İstanbul, Turkey</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/sami63inci/" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/samiinci00/" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/samiinci00/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+            <div style="width: 30px; height: 30px; border-radius: 50%;" class="return"><a href="../index.html"><img style="width: 30px; height: 30px; border-radius: 50%; color: gold; display: inline-block;" src="./assets/images/back.png" alt=""></a></div>
+                <header>
+                    <h2 class="h2 article-title">THE RACE BTW JS AND TS</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                    <p>
+                        The race between JavaScript (JS) and TypeScript is an interesting one, as both are programming
+                        languages that target the same runtime environment (usually the web browser) and share a lot of
+                        similarities. However, they also have some key differences that set them apart.
+                    </p>
+                    <br>
+                    <p> JavaScript is a dynamically typed language that was created in the mid-1990s and quickly became
+                        the standard language for web development. It is a versatile language that allows developers to
+                        create interactive and dynamic websites. JavaScript is executed by the browser's JavaScript
+                        engine at runtime, and it supports a wide range of programming paradigms, including procedural,
+                        object-oriented, and functional programming.</p>
+                    <br>
+                    <p> On the other hand, TypeScript is a superset of JavaScript that was introduced by Microsoft in
+                        2012. It adds optional static typing to JavaScript, meaning that developers can define types for
+                        variables, function parameters, and return values. TypeScript compiles down to plain JavaScript
+                        and can be executed by any JavaScript runtime. The addition of static typing brings several
+                        benefits, such as improved code maintainability, enhanced tooling support, and early detection
+                        of errors during development.</p>
+                    <br>
+                    <p> In terms of popularity, JavaScript has been the dominant language for web development for many
+                        years. Its extensive ecosystem, large community, and compatibility with all major browsers have
+                        contributed to its widespread adoption. Many popular frameworks and libraries, such as React,
+                        Angular, and Vue.js, are built using JavaScript.</p>
+                    <br>
+                    <p> However, TypeScript has been rapidly gaining popularity in recent years. Its static typing
+                        features make it easier to build and maintain large-scale applications, especially in teams
+                        where multiple developers are working on the same codebase. TypeScript provides a rich set of
+                        tools, such as code editors with intelligent autocompletion and refactoring support, which
+                        enhance developer productivity. It also offers excellent integration with popular JavaScript
+                        frameworks, allowing developers to seamlessly incorporate TypeScript into their existing
+                        projects.</p>
+                    <br>
+                    <p>The race between JavaScript and TypeScript can be seen as a shift from pure dynamic typing to a
+                        more statically typed approach. While JavaScript remains the de facto language for web
+                        development, TypeScript's rise indicates a growing preference for static typing in modern web
+                        development projects. That being said, both languages have their strengths and are likely to
+                        coexist for the foreseeable future, with developers choosing the language that best fits their
+                        project requirements and personal preferences.</p>
+                        <br>
+                        <h2>what is the most used project type of TS?</h2>
+                        <br>
+                        
+                    <p>
+                        TypeScript is widely used across various types of projects, but its adoption is particularly prominent in certain domains. The most common project types where TypeScript is extensively utilized include:
+<br><br>
+<strong> Web Applications:</strong> TypeScript is commonly employed in building large-scale web applications. It is often used in combination with popular JavaScript frameworks and libraries like Angular, React, and Vue.js. These frameworks provide excellent TypeScript support and enable developers to take advantage of static typing for improved productivity and code maintainability.
+<br><br>
+<strong>Node.js Applications:</strong> TypeScript is also popular for developing server-side applications using Node.js. Node.js is built on JavaScript, and TypeScript brings its static typing benefits to the Node.js ecosystem. Many developers prefer TypeScript for building APIs, backend services, and other server-side components due to its strong typing, error checking, and code organization features.
+<br><br>
+<strong>Desktop Applications:</strong> TypeScript is increasingly used in desktop application development. Frameworks like Electron, which allows developers to build cross-platform desktop apps using web technologies, have excellent TypeScript support. TypeScript helps in creating more robust and scalable desktop applications, especially for complex projects that require strong type checking and modularization.
+<br><br>
+<strong>Mobile Applications:</strong> TypeScript is gaining traction in the realm of mobile app development. Frameworks like React Native and NativeScript, which enable developers to build mobile apps using JavaScript, have embraced TypeScript as a preferred language. TypeScript provides better code quality, error detection, and tooling support for building mobile applications.
+<br><br>
+<strong>Libraries and Frameworks:</strong> TypeScript is also commonly used for creating libraries and frameworks. Many open-source projects adopt TypeScript to provide better developer experiences, enhanced code maintainability, and more predictable APIs. Examples include popular libraries like lodash, Axios, and moment.js, which offer TypeScript typings for developers to leverage static typing in their projects.
+<br><br>
+Overall, TypeScript's versatility allows it to be applied to a wide range of project types, from small-scale applications to large-scale enterprise solutions. Its static typing capabilities make it especially beneficial for complex and collaborative projects, where type checking and tooling support are critical for maintaining code quality and reducing errors.
+                    </p>
+                </section>
+
+                <div style="width: 30px; height: 30px; border-radius: 50%;" class="return"><a href="../index.html"><img style="width: 30px; height: 30px; border-radius: 50%; color: gold; display: inline-block;" src="./assets/images/back.png" alt=""></a></div>
+
+            </article>
+
+
+
+
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
